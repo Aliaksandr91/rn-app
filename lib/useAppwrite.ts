@@ -45,7 +45,7 @@ export const useAppwrite = <T, P extends Record<string, string | number>>({
 
     useEffect(() => {
         if (!skip) {
-            fetchData(params);
+            fetchData(params || ({} as P));
         }
     }, []);
 
