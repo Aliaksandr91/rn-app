@@ -33,13 +33,14 @@
           "enableFullScreenImage_legacy": true
         }
       ],
-      ["expo-font",
+      [
+        "expo-font",
         {
-          "fonts":[
+          "fonts": [
             "./assets/fonts/Rubik-Bold.ttf",
             "./assets/fonts/Rubik-ExtraBold.ttf",
-            "./assets/fonts/Rubik-Medium.ttf",
             "./assets/fonts/Rubik-Light.ttf",
+            "./assets/fonts/Rubik-Medium.ttf",
             "./assets/fonts/Rubik-Regular.ttf",
             "./assets/fonts/Rubik-SemiBold.ttf"
           ]

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { router, useLocalSearchParams } from "expo-router";
-import { Text, ScrollView, TouchableOpacity } from "react-native";
+import React, {useState} from "react";
+import {router, useLocalSearchParams} from "expo-router";
+import {Text, ScrollView, TouchableOpacity} from "react-native";
 
-import { categories } from "@/constants/data";
+import {categories} from "@/constants/data";
 
 const Filters = () => {
     const params = useLocalSearchParams<{ filter?: string }>();
@@ -13,12 +13,12 @@ const Filters = () => {
     const handleCategoryPress = (category: string) => {
         if (selectedCategory === category) {
             setSelectedCategory("");
-            router.setParams({ filter: "" });
+            router.setParams({filter: ""});
             return;
         }
 
         setSelectedCategory(category);
-        router.setParams({ filter: category });
+        router.setParams({filter: category});
     };
 
     return (

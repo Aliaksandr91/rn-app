@@ -1,5 +1,5 @@
-import { Tabs } from "expo-router";
-import { Image, ImageSourcePropType, Text, View } from "react-native";
+import {Tabs} from "expo-router";
+import {Image, ImageSourcePropType, Text, View} from "react-native";
 
 import icons from "@/constants/icons";
 
@@ -50,8 +50,8 @@ const TabsLayout = () => {
                 options={{
                     title: "Home",
                     headerShown: false,
-                    tabBarIcon: ({ focused }) => (
-                        <TabIcon focused={focused} icon={icons.home} title="Home" />
+                    tabBarIcon: ({focused}) => (
+                        <TabIcon focused={focused} icon={icons.home} title="Home"/>
                     ),
                 }}
             />
@@ -60,8 +60,8 @@ const TabsLayout = () => {
                 options={{
                     title: "Explore",
                     headerShown: false,
-                    tabBarIcon: ({ focused }) => (
-                        <TabIcon focused={focused} icon={icons.search} title="Explore" />
+                    tabBarIcon: ({focused}) => (
+                        <TabIcon focused={focused} icon={icons.search} title="Explore"/>
                     ),
                 }}
             />
@@ -70,8 +70,8 @@ const TabsLayout = () => {
                 options={{
                     title: "Profile",
                     headerShown: false,
-                    tabBarIcon: ({ focused }) => (
-                        <TabIcon focused={focused} icon={icons.person} title="Profile" />
+                    tabBarIcon: ({focused}) => (
+                        <TabIcon focused={focused} icon={icons.person} title="Profile"/>
                     ),
                 }}
             />
