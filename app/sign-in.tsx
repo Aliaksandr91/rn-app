@@ -33,7 +33,7 @@ const Auth = () => {
         <SafeAreaView className="bg-white h-full">
             <ScrollView
                 contentContainerStyle={{
-                    height: "100%",
+                    flexGrow: 1,
                 }}
             >
                 <Image
